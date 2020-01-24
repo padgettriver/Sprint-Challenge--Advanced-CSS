@@ -58,6 +58,15 @@
       }
 
       .btn {
+       .signup();
+
+       &:hover{
+         .hover();
+       }
+       .mainBtn{
+        text-decoration: none;
+        color: white;
+       }
       }
     }
 
@@ -73,3 +82,39 @@
     }
   }
 }// home
+
+// mobile 
+
+@media @phone {
+  a {
+    padding: 1%;
+  }
+  .sky {
+    display: none;
+  }
+  .launch{
+    display: none;
+  }
+  .blast{
+  }
+  .walk{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ .blast{
+  margin-left: 50%;
+  margin-right: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+ img{
+  box-shadow: 15px 15px 10px skyblue;
+  margin-bottom: 10%;
+ }
+ .btn{
+   width: 200%;
+   margin-left: 0%;
+ }
+}
+
