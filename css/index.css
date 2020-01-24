@@ -181,6 +181,11 @@ p {
   margin-right: auto;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .navagation .earth {
+    width: 90%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -248,6 +253,10 @@ footer {
   background-color: white;
   color: #23293B;
 }
+.home .walk .walk-text .btn .mainBtn {
+  text-decoration: none;
+  color: white;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -270,5 +279,20 @@ footer {
   .walk {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .blast {
+    margin-left: 50%;
+    margin-right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    box-shadow: 15px 15px 10px skyblue;
+    margin-bottom: 10%;
+  }
+  .btn {
+    width: 200%;
+    margin-left: 0%;
   }
 }
